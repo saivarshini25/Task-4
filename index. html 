@@ -191,7 +191,7 @@
       filtered.forEach(p => {
         const div = document.createElement("div");
         div.className = "product";
-        div.innerHTML = `<h3>${p.name}</h3><p>Category: ${p.category}</p><p>Rating: ${p.rating}</p>`;
+        div.innerHTML = '<h3>${p.name}</h3><p>Category: ${p.category}</p><p>Rating: ${p.rating}</p>';
         container.appendChild(div);
       });
     }
